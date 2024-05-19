@@ -15,6 +15,19 @@ body {
     margin: 20px auto;
 }
 
+
+.text-header {
+    font-size: 25px;
+    font-weight: 400px;
+    margin-bottom: 0px;
+}
+
+.text-subheader {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 350px;
+}
+
 main {
     padding: 20px;
 }
@@ -54,8 +67,8 @@ main {
     height: 40px;
     background-color: #4caf50;
     width: 0;
-    transition: width 1s ease-in-out;
-    border-radius: 20px;
+    transition: width 2s ease-in-out;
+    border-radius: 0px;
 }
 
 .bar-container {
@@ -77,7 +90,47 @@ main {
 }
 
 @media (max-width: 480px) {
+    body {
+        font-size: 14px; /* ปรับขนาดตัวอักษรให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .logo {
+        width: 120px; /* ลดขนาดโลโก้ให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .text-header {
+        font-size: 20px; /* ปรับขนาดข้อความหัวเรื่องให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .text-subheader {
+        font-size: 16px; /* ปรับขนาดข้อความซับเฮดเดอร์ให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .grid-item {
+        padding: 10px; /* ลดระยะห่างของกรอบของข้อมูลแต่ละช่องในตาราง */
+    }
+
+    .faculty-name {
+        font-size: 16px; /* ปรับขนาดข้อความชื่อคณะให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .eligible-count {
+        font-size: 14px; /* ปรับขนาดข้อความจำนวนคณะให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .percentage-text {
+        font-size: 10px; /* ปรับขนาดข้อความเปอร์เซ็นต์ให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
     .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* ให้กริดแสดงแค่หนึ่งคอลัมน์ในโทรศัพท์ */
+    }
+
+    .bar-container {
+        width: 70%; /* ปรับขนาดกล่องความสูงของแท่งสีเขียวให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
+    }
+
+    .percentage-bar {
+        height: 20px; /* ปรับความสูงของแท่งสีเขียวให้เหมาะสมกับขนาดหน้าจอโทรศัพท์ */
     }
 }

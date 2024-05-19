@@ -11,17 +11,26 @@ body {
     flex-direction: column;
 }
 
+.text-logo {
+    font-size: 27px;
+    font-weight: 600;
+}
+
 .container {
     text-align: center;
 }
 
 .logo-container {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .logo-container img {
     width: 260px;
     height: auto;
+}
+
+.center {
+    text-align: center;
 }
 
 .text-image-container {
@@ -62,15 +71,19 @@ body {
 @media (max-width: 768px) {
     .text-image-container {
         flex-direction: column;
-        gap: 50px; /* Adjust the gap for smaller screens */
+        gap: 0px; /* Adjust the gap for smaller screens */
     }
 
     .btn-container {
         margin-bottom: 20px;
     }
 
+    .logo-container {
+        margin-bottom: 30px;
+    }
+
     .image {
-        width: 60%; /* Adjust image size for smaller screens */
+        width: 50%; /* Adjust image size for smaller screens */
     }
 
     .btn-container p {
@@ -81,11 +94,11 @@ body {
 @media (max-width: 376px) {
     .text-image-container {
         flex-direction: column;
-        gap: 10px; /* Reduce gap further for very small screens */
+        gap: 0px; /* Reduce gap further for very small screens */
     }
 
     .image {
-        width: 50%; /* Adjust image size for very small screens */
+        width: 30%; /* Adjust image size for very small screens */
     }
 
     .btn-container p {
@@ -93,9 +106,14 @@ body {
     }
 
     .logo-container {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     
+    .text-logo {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
     .logo-container img {
         width: 180px;
         height: auto;
