@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #a1f8f6b0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.faculty-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faculty-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.eligible-count {
+    font-size: 16px;
+    color: #555;
+}
+
+.percentage-bar {
+    height: 40px;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 1s ease-in-out;
+    border-radius: 20px;
+}
+
+.bar-container {
+    background-color: #ddd;
+    width: 85%;
+    position: relative;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.percentage-text {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

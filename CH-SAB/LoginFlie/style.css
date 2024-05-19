@@ -2,11 +2,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    background-image: url("./Photo/WUPhoto.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    backdrop-filter: blur(5px);
+    background-color: #a1f8f6b0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +120,7 @@ button:hover {
     }
     
     button {
+        width: 63px;
         padding: 10px;
         font-size: 16px;
     }

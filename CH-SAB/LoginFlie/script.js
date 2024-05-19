@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => {
         if (response.ok) {
             // ถ้าล็อกอินสำเร็จ ให้เปลี่ยนเส้นทางไปยังหน้า index.html
-            window.location.href = 'index.html';
+            window.location.href = '../Voteflie/vote.html';
         } else {
             // ถ้าล็อกอินไม่สำเร็จ แสดงข้อความผิดพลาด (คุณสามารถปรับแต่งได้)
             alert('Login failed. Please check your username and password.');
