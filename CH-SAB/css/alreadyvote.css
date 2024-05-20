@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Kanit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a1f8f6b0;
+}
+
+#message-box {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+.text-sen {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.text-sen2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkmark {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.btn-enter {
+    font-family: Kanit, sans-serif;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#back-button {
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .text-sen {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    
+    .text-sen2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .checkmark {
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+    .btn-enter {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }    
+}
