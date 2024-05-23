@@ -41,8 +41,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       });
     }
   });
-  
-  
+
   abstainBtn.addEventListener('click', () => {
     Swal.fire({
       title: 'ยืนยันการงดออกเสียง',
@@ -57,4 +56,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
     });
   });
-})
+});

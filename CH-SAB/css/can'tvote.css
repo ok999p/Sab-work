@@ -33,7 +33,7 @@ body {
     display: none;
 }
 
-.checkmark {
+.warning {
     width: 100px;
     height: 100px;
     
@@ -54,12 +54,12 @@ body {
 
 @media (max-width: 480px) {
     .text-sen {
-        font-size: 23px;
+        font-size: 25px;
         font-weight: 600;
     }
     
     .text-sen2 {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 600;
     }
     
@@ -72,6 +72,25 @@ body {
     .btn-enter {
         padding: 10px;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 17px;
+    }    
+}
+
+
+@media (max-width: 480px) {
+    .text-sen {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .text-sen2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .btn-enter {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
     }    
 }
